@@ -1,0 +1,15 @@
+[project]
+name = "blogpost"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-core>=0.2.0",
+    "litellm==1.85.0",
+    "pydantic>=2.0.0,<3.0.0",
+    "python-dotenv==1.0.1",
+    "requests>=2.34.2",
+    "sap-cloud-sdk>=0.35.0",
+    "streamlit>=1.35.0",
+]
